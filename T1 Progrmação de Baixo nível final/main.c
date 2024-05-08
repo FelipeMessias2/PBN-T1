@@ -315,7 +315,7 @@ void ImagemMenosBrilho(int colunas, int linhas, struct pixel **matriz, int opcao
  free(matriz);
 }
 
-void ImagemRotacionada(int colunas, int linhas, struct pixel **matriz, int opcao1)//VER SE ESTÁ CORRETO DEPOIS
+void ImagemRotacionada(int colunas, int linhas, struct pixel **matriz, int opcao1)
 {
   // Criação do novo arquivo ppm
   FILE *fp_novo;
